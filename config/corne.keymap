@@ -35,8 +35,8 @@
                         bindings = <
                                 &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans
                                 &trans          &kp LGUI        &kp LALT        &kp LCTRL       &kp LSHFT      &trans           &kp C_PREV      &kp C_VOL_DN    &kp C_VOL_UP    &kp C_NEXT      &trans          &trans
-                                &trans          &trans          &trans          &trans          &trans          &trans          &kp BT_CLR      &kp BT_SEL 0    &kp BT_SEL 1    &kp BT_SEL 2    &kp BT_SEL 3    &trans
-                                                                                &trans          &trans          &trans          &kp C_STOP      &kp C_PP         &kp K_MUTE
+                                &trans          &trans          &trans          &trans          &trans          &trans          &bt BT_CLR      &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4
+                                                                                &trans          &trans          &trans          &kp C_STOP      &kp C_PP        &kp K_MUTE
                         >;      
                 };
                 navigation_layer {
@@ -50,7 +50,7 @@
                 mouse_layer {
                         bindings = <
                                 &trans          &trans          &trans          &trans          &trans          &trans          &kp C_AC_REDO   &kp C_AC_PASTE  &kp C_AC_COPY   &kp C_AC_CUT    &kp C_AC_UNDO   &trans
-                                &trans          &kp LGUI        &kp LALT        &kp LCTRL       &kp LSHFT       &trans          &kp C_AC_REDO   &kp C_AC_PASTE  &kp C_AC_COPY   &kp C_AC_CUT    &kp C_AC_UNDO   &trans
+                                &trans          &kp LGUI        &kp LALT        &kp LCTRL       &kp LSHFT       &trans          &trans          &trans          &trans          &trans          &trans          &trans 
                                 &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans                                       
                                                                                 &trans          &trans          &trans          &trans          &trans          &trans
                         >;
