@@ -17,7 +17,7 @@
 #define FUN 6
 
 &mt {
-        tapping_term_ms = 200;
+        tapping_term_ms = <200>;
         flavor = "tap-preferred";    
 };
 / {
