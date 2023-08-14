@@ -19,7 +19,9 @@
 / {
 
         
-        behaviors {
+        &mt {
+                tapping_term_ms = 200;
+                flavor = "tap-preferred";    
         };
         keymap {
                 compatible = "zmk,keymap";
