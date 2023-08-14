@@ -42,7 +42,7 @@
                 navigation_layer {
                         bindings = <
                                 &trans          &trans          &trans          &trans          &trans          &trans          &kp C_AC_REDO   &kp C_AC_PASTE  &kp C_AC_COPY   &kp C_AC_CUT    &kp C_AC_UNDO   &trans
-                                &trans          &kp LGUI        &kp LALT        &kp LCTRL       &kp LSHFT       &trans          &kp LEFT        &kp DOWN        &kp UP          &kp RIGHT       &kp CAPS        &tranys
+                                &trans          &kp LGUI        &kp LALT        &kp LCTRL       &kp LSHFT       &trans          &kp LEFT        &kp DOWN        &kp UP          &kp RIGHT       &kp CAPS        &trans
                                 &trans          &trans          &trans          &trans          &trans          &trans          &kp INS         &kp HOME        &kp PG_DN       &kp PG_UP       &kp END         &trans
                                                                                 &trans          &trans          &trans          &kp RET         &kp BSPC        &kp DEL
                         >;
