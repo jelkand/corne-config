@@ -31,7 +31,7 @@
         bt_0_mgmt: bt_0_mgmt {
             compatible = "zmk,behavior-mod-morph";
             label = "BT_0_MGMT";
-            bindings = <&bt BT_SEL 0>, &bt BT_SEL 0 &bt BT_CLR;
+            bindings = <&bt BT_SEL 0>, <&bt BT_SEL 0 &bt BT_CLR>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -40,7 +40,7 @@
         bt_1_mgmt: bt_1_mgmt {
             compatible = "zmk,behavior-mod-morph";
             label = "BT_1_MGMT";
-            bindings = <&bt BT_SEL 1>, &bt BT_SEL 1 &bt BT_CLR;
+            bindings = <&bt BT_SEL 1>, <&bt BT_SEL 1 &bt BT_CLR>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -49,7 +49,7 @@
         bt_2_mgmt: bt_2_mgmt {
             compatible = "zmk,behavior-mod-morph";
             label = "BT_2_MGMT";
-            bindings = <&bt BT_SEL 2>, &bt BT_SEL 2 &bt BT_CLR;
+            bindings = <&bt BT_SEL 2>, <&bt BT_SEL 2 &bt BT_CLR>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -58,7 +58,7 @@
         bt_3_mgmt: bt_3_mgmt {
             compatible = "zmk,behavior-mod-morph";
             label = "BT_3_MGMT";
-            bindings = <&bt BT_SEL 3>, &bt BT_SEL 3 &bt BT_CLR;
+            bindings = <&bt BT_SEL 3>, <&bt BT_SEL 3 &bt BT_CLR>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -67,7 +67,7 @@
         bt_4_mgmt: bt_4_mgmt {
             compatible = "zmk,behavior-mod-morph";
             label = "BT_4_MGMT";
-            bindings = <&bt BT_SEL 4>, &bt BT_SEL 4 &bt BT_CLR;
+            bindings = <&bt BT_SEL 4>, <&bt BT_SEL 4 &bt BT_CLR>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
