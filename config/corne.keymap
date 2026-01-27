@@ -16,12 +16,28 @@
 #define NUM 5
 #define FUN 6
 
-&mt {
-    tapping_term_ms = <200>;
-    flavor = "tap-preferred";
-};
-
 / {
+    macros {
+        new_macro: new_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none>, <&macro_press>;
+
+            label = "NEW_MACRO";
+        };
+    };
+
+    behaviors {
+        bt_0_mgmt: bt_0_mgmt {
+            compatible = "zmk,behavior-mod-morph";
+            label = "BT_0_MGMT";
+            bindings = <&bt BT_SEL 0>, <&bt BT_CLR>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -43,7 +59,7 @@
             >;
         };
 
-        navigation_layer {
+        Nav {
             bindings = <
 &trans  &trans    &trans    &trans     &trans     &trans    &kp C_AC_REDO  &kp C_AC_PASTE  &kp C_AC_COPY  &kp C_AC_CUT  &kp C_AC_UNDO  &trans
 &trans  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans    &kp LEFT       &kp DOWN        &kp UP         &kp RIGHT     &kp CAPS       &trans
@@ -52,7 +68,7 @@
             >;
         };
 
-        symbol_layer {
+        Sym {
             bindings = <
 &trans  &kp LBRC   &kp AMPS  &kp STAR   &kp LPAR   &kp RBRC     &trans  &trans     &trans     &trans    &trans    &trans
 &trans  &kp COLON  &kp DLLR  &kp PRCNT  &kp CARET  &kp PLUS     &trans  &kp RSHFT  &kp RCTRL  &kp RALT  &kp RGUI  &trans
@@ -61,7 +77,7 @@
             >;
         };
 
-        number_layer {
+        Num {
             bindings = <
 &trans  &kp LBKT   &kp N7  &kp N8   &kp N9  &kp RBKT     &trans  &trans     &trans     &trans    &trans    &trans
 &trans  &kp SEMI   &kp N4  &kp N5   &kp N6  &kp EQUAL    &trans  &kp RSHFT  &kp RCTRL  &kp RALT  &kp RGUI  &trans
