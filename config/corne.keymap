@@ -98,7 +98,7 @@ ZMK_HOLD_TAP(hmr,
         compatible = "zmk,keymap";
 
         Base {
-            display-name = "Base"
+            display-name = "Base";
             bindings = <
 &none      &kp Q       &kp W       &kp E        &kp R       &kp T             &kp Y             &kp U       &kp I        &kp O       &kp P          &none
 &none      &mt LGUI A  &mt LALT S  &mt LCTRL D  &kp F       &kp G             &kp H             &kp J       &mt RCTRL K  &mt RALT L  &mt RGUI SEMI  &none
@@ -108,7 +108,7 @@ ZMK_HOLD_TAP(hmr,
         };
 
         Media {
-            display-name = "Media"
+            display-name = "Media";
             bindings = <
 &trans  &trans    &trans    &trans     &trans     &trans    &trans      &trans        &trans        &trans      &trans      &trans
 &trans  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans    &kp C_PREV  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_NEXT  &trans      &trans
@@ -118,7 +118,7 @@ ZMK_HOLD_TAP(hmr,
         };
 
         Nav {
-            display-name = "Nav"
+            display-name = "Nav";
             bindings = <
 &trans  &trans    &trans    &trans     &trans     &trans    &kp C_AC_REDO  &kp C_AC_PASTE  &kp C_AC_COPY  &kp C_AC_CUT  &kp C_AC_UNDO  &trans
 &trans  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans    &kp LEFT       &kp DOWN        &kp UP         &kp RIGHT     &kp CAPS       &trans
@@ -128,7 +128,7 @@ ZMK_HOLD_TAP(hmr,
         };
 
         Sym {
-            display-name = "Sym"
+            display-name = "Sym";
             bindings = <
 &trans  &kp LBRC   &kp AMPS  &kp STAR   &kp LPAR   &kp RBRC     &trans  &trans     &trans     &trans    &trans    &trans
 &trans  &kp COLON  &kp DLLR  &kp PRCNT  &kp CARET  &kp PLUS     &trans  &kp RSHFT  &kp RCTRL  &kp RALT  &kp RGUI  &trans
@@ -138,7 +138,7 @@ ZMK_HOLD_TAP(hmr,
         };
 
         Num {
-            display-name = "Num"
+            display-name = "Num";
             bindings = <
 &trans  &kp LBKT   &kp N7  &kp N8   &kp N9  &kp RBKT     &trans  &trans     &trans     &trans    &trans    &trans
 &trans  &kp SEMI   &kp N4  &kp N5   &kp N6  &kp EQUAL    &trans  &kp RSHFT  &kp RCTRL  &kp RALT  &kp RGUI  &trans
